@@ -1,0 +1,4 @@
+# Root gitignore
+*.zip
+.DS_Store
+Thumbs.db
