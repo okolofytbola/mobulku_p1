@@ -84,9 +84,3 @@
 
 <img src="screenshots/04_api_key_dialog.png" width="300" alt="Диалоговое окно настройки API-ключа" />
 
----
-
-### 5. Логирование сетевых запросов через PrettyDioLogger и Interceptor
-Все сетевые вызовы проходят через цепочку интерцепторов `Dio`. Пакет `pretty_dio_logger` выводит в консоль структурированные таблицы с URL запроса, HTTP-методом, переданными заголовками (включая `X-Api-Key`), query-параметрами, телом запроса, кодом статуса ответа и временем выполнения.
-
-<img src="screenshots/05_dio_logger_terminal.png" width="450" alt="Логи сетевых запросов PrettyDioLogger в терминале" />
